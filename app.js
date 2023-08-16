@@ -14,7 +14,7 @@ let navbar = document.querySelector("#navbar");
 
 const navbarLinks = document.querySelectorAll('.navbar a');
 
-if (navbarLinks) {
+if (navbarLinks & menu & navbar) {
   navbarLinks.forEach(link => {
     link.addEventListener('click', function () {
       // Tüm aktif linklerin aktif sınıfını kaldır
